@@ -1,0 +1,13 @@
+Flask
+Flask-Cors
+gunicorn
+numpy
+scikit-learn
+xgboost
+lightgbm
+catboost
+pandas
+matplotlib
+openpyxl
+celery
+redis
