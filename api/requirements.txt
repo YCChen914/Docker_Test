@@ -1,5 +1,6 @@
 Flask
 Flask-Cors
+importlib-metadata<5.0
 gunicorn
 numpy
 scikit-learn
