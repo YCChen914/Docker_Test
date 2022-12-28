@@ -8,7 +8,6 @@ from xgboost import XGBClassifier
 from sklearn.ensemble import RandomForestClassifier,VotingClassifier
 from lightgbm import LGBMClassifier
 from catboost import CatBoostClassifier
-import matplotlib.pyplot as plt
 from sklearn.preprocessing import LabelEncoder
 
 
