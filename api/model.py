@@ -83,13 +83,13 @@ def get_delete_list_RF(df_drop_unnecessary):
 
 def RFE_acc_print(RFE_acc,delete_list_CAT):
     delete_list_CAT.reverse() 
-    result1 = "最佳準確度之特徵數量: " + str(RFE_acc.index(max(RFE_acc))+1) 
-    result2 = "最佳準確度之特徵: " 
+    result1 = "Number of features required: " + str(RFE_acc.index(max(RFE_acc))+1) 
+    result2 = "Selected features : " 
 
     for i in range(RFE_acc.index(max(RFE_acc))+1):
         result2 = result2 + " " + delete_list_CAT[i][0]
     
-    result3  = "最佳準確度: " + str(max(RFE_acc))
+    result3  = "Accuracy: " + str(max(RFE_acc))
 
     return result1 , result2 , result3
 
